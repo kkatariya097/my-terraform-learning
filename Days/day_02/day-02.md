@@ -120,8 +120,8 @@ The key thing to look at is the summary line at the end, which shows 3 numbers:
 
 **Plan: to add, to change, to destroy.**
 
-![terraform plan output 1](/assets_02/terraform_plan_1.png)
-![terraform plan output 2](/assets_02/terraform_plan_2.png)
+![terraform plan output 1](assets_02/terraform_plan_1.png)
+![terraform plan output 2](assets_02/terraform_plan_2.png)
 
 ## Step 6: `terraform apply`
 
@@ -131,24 +131,24 @@ This is like a "dry run with a confirmation step" — Terraform shows the plan a
 terraform apply
 ```
 
-![terraform apply output 1](/assets_02/terraform_apply_1.png)
-![terraform apply output 1](/assets_02/terraform_apply_2.png)
+![terraform apply output 1](assets_02/terraform_apply_1.png)
+![terraform apply output 1](assets_02/terraform_apply_2.png)
 
 > **Note:** This step also generates a file called `terraform.tfstate` — the **state file**. This file is sensitive/secret — it should **not** be accessible to everyone. Only people who are allowed to make infrastructure changes should have access to it, since it can contain sensitive resource details.
 
-![terraform state file snippet ](/assets_02/terraform.tfstate_file.png)
+![terraform state file snippet ](assets_02/terraform.tfstate_file.png)
 
 **Important gotcha:** the confirmation prompt is **case-sensitive**. You must type exactly `yes` (lowercase). Typing `Yes` (capital Y) will cancel the apply.
 
-![typed "Yes" — apply got cancelled](/assets_02/case_sensitive.png)
+![typed "Yes" — apply got cancelled](assets_02/case_sensitive.png)
 
-![typed "yes" — apply succeeded, bucket created](/assets_02/terraform_apply_done.png)
+![typed "yes" — apply succeeded, bucket created](assets_02/terraform_apply_done.png)
 
 ### Verifying in the AWS Console
 
 Even though we created everything through Terraform (no console clicking), it's good practice to check the result in the AWS Console:
 
-![S3 bucket visible in AWS Console](/assets_02/generated_s3_bucket.png)
+![S3 bucket visible in AWS Console](assets_02/generated_s3_bucket.png)
 
 ### Skipping the Confirmation Prompt
 
@@ -165,7 +165,7 @@ When you're done and want to clean up (delete the bucket / all resources created
 ```
 terraform destroy
 ```
-![terrafrom destroy ](/assets_02/destroy.png)
+![terrafrom destroy ](assets_02/destroy.png)
 This removes everything Terraform created, based on the current state file.
 
 ## Key Takeaways

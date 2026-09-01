@@ -20,8 +20,8 @@ terraform-learning-journey/
 
 | Day | Topic | Notes |
 |-----|-------|-------|
-| 1 | How Terraform works, what is IaC, Terraform workflow, installing Terraform | [day_01.md](days/day_01.md) |
-| 2 | Hands-on: creating an AWS S3 bucket with Terraform (init/plan/apply/destroy, state file, AWS auth) | [day_02.md](days/day_02.md) |
+| 1 | How Terraform works, what is IaC, Terraform workflow, installing Terraform | [day_01.md](days/day_01/day_01.md) |
+| 2 | Hands-on: creating an AWS S3 bucket with Terraform (init/plan/apply/destroy, state file, AWS auth) | [day_02.md](days/day_02/day-02.md) |
 
 _(This table will be updated as new days are added.)_
 
