@@ -10,9 +10,9 @@ Each day I study, I add a new notes file summarizing what I learned that day, al
 terraform-learning-journey/
 ├── README.md              # This file — overview and daily progress log
 ├── days/                  # Daily learning notes (Day 1, Day 2, ...)
-│   └── day_1.md
+│   └── day_01.md
 ├── assets/                # Diagrams and images used in the notes
-│   └── day-01/
+│   └── images
 └── projects/               # Hands-on Terraform + AWS projects (added as I build them)
 ```
 
@@ -20,7 +20,8 @@ terraform-learning-journey/
 
 | Day | Topic | Notes |
 |-----|-------|-------|
-| 1 | How Terraform works, what is IaC, Terraform workflow, installing Terraform | [day-01.md](days/day_1.md) |
+| 1 | How Terraform works, what is IaC, Terraform workflow, installing Terraform | [day_01.md](days/day_01.md) |
+| 2 | Hands-On: Creating an S3 Bucket with Terraform | [day_02.md](days/day_02.md) |
 
 _(This table will be updated as new days are added.)_
 

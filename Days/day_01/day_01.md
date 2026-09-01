@@ -61,7 +61,7 @@ Whenever these commands are executed, Terraform actually interacts with an API t
 
 The diagram below shows the full flow: a DevOps engineer writes a `.tf` file, pushes it to GitHub, a CI/CD pipeline runs the `terraform init / validate / plan / apply` sequence, Terraform calls the AWS APIs to create/modify the infrastructure (e.g., a 3-tier application), and `terraform destroy` (run via CLI) tears it back down.
 
-![Terraform workflow diagram](/Days/day_1/terraformday1.png)
+![Terraform workflow diagram](/days/day_01/assets_01/terraformday1.png)
 
 ## Installing Terraform
 
@@ -86,7 +86,7 @@ Providers are **plugins** that allow Terraform to interact with cloud platforms,
 
 Link: https://registry.terraform.io/?product_intent=terraform 
 
-![Terraform Providers](/Days/day_1/Terraform_providers.png)
+![Terraform Providers](/days/day_01/assets_01/Terraform_providers.png)
 
 ### Provider vs Terraform Core Version
 
